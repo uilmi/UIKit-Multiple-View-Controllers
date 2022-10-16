@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		75800BEB28FC62B100F6D70D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75800BEA28FC62B100F6D70D /* AppDelegate.swift */; };
 		75800BED28FC62B100F6D70D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75800BEC28FC62B100F6D70D /* SceneDelegate.swift */; };
-		75800BEF28FC62B100F6D70D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75800BEE28FC62B100F6D70D /* ViewController.swift */; };
+		75800BEF28FC62B100F6D70D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75800BEE28FC62B100F6D70D /* FirstViewController.swift */; };
 		75800BF228FC62B100F6D70D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75800BF028FC62B100F6D70D /* Main.storyboard */; };
 		75800BF428FC62B200F6D70D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75800BF328FC62B200F6D70D /* Assets.xcassets */; };
 		75800BF728FC62B200F6D70D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75800BF528FC62B200F6D70D /* LaunchScreen.storyboard */; };
+		75BB397928FC69D300491A4B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BB397828FC69D300491A4B /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		75800BE728FC62B100F6D70D /* UIKit-Multiple-View-Controllers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit-Multiple-View-Controllers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75800BEA28FC62B100F6D70D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75800BEC28FC62B100F6D70D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		75800BEE28FC62B100F6D70D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75800BEE28FC62B100F6D70D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		75800BF128FC62B100F6D70D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75800BF328FC62B200F6D70D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75800BF628FC62B200F6D70D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75800BF828FC62B200F6D70D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75BB397828FC69D300491A4B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				75800BEA28FC62B100F6D70D /* AppDelegate.swift */,
 				75800BEC28FC62B100F6D70D /* SceneDelegate.swift */,
-				75800BEE28FC62B100F6D70D /* ViewController.swift */,
+				75800BEE28FC62B100F6D70D /* FirstViewController.swift */,
+				75BB397828FC69D300491A4B /* SecondViewController.swift */,
 				75800BF028FC62B100F6D70D /* Main.storyboard */,
 				75800BF328FC62B200F6D70D /* Assets.xcassets */,
 				75800BF528FC62B200F6D70D /* LaunchScreen.storyboard */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75800BEF28FC62B100F6D70D /* ViewController.swift in Sources */,
+				75BB397928FC69D300491A4B /* SecondViewController.swift in Sources */,
+				75800BEF28FC62B100F6D70D /* FirstViewController.swift in Sources */,
 				75800BEB28FC62B100F6D70D /* AppDelegate.swift in Sources */,
 				75800BED28FC62B100F6D70D /* SceneDelegate.swift in Sources */,
 			);
